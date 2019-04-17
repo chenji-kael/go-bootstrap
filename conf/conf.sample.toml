@@ -1,0 +1,6 @@
+# This is a TOML document. should be rename as conf.toml and put to /etc/nier/conf.toml
+
+Logpath = "/var/log/nier/api.log"
+Loglevel = "info"
+Accesslog = "/var/log/nier/access.log"
+UserDataSource = "root:@tcp(127.0.0.1:4000)/"
